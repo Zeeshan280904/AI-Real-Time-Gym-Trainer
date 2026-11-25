@@ -1,0 +1,1 @@
+EXERCISE_OPTIONS = ["Squats", "Pushups", "Bicep Curls", "Shoulder Press", "Lunges"]

@@ -81,13 +81,13 @@ def main():
                 st.metric("Back Angle", f"{st.session_state.back_angle}°")
                 st.metric("Depth Status", st.session_state.depth_status)
 
-            elif exercise == "Push-ups":
+            elif exercise == "Pushups":
                 st.subheader("Push-up Metrics")
                 st.metric("Elbow Angle", f"{st.session_state.elbow_angle}°")
                 st.metric("Body Alignment", st.session_state.body_alignment)
                 st.metric("Hip Position", st.session_state.hip_status)
 
-            elif exercise == "Biceps Curls (Dumbbell)":
+            elif exercise == "Bicep Curls":
                 st.subheader("Curl Metrics")
                 st.metric("Elbow Angle", f"{st.session_state.elbow_angle}°")
                 st.metric("Shoulder Stability", st.session_state.shoulder_status)

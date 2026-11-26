@@ -11,6 +11,10 @@
   background-color: #111520;
 }
 
+[data-testid="InputInstructions"] {
+    display: none;
+}
+
 /* =========================================================
    TYPOGRAPHY (SCOPED – safer)
 ========================================================= */
